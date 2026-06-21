@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "commandmerge",
+  "version": "${version}",
+  "name": "Command Merge Mod",
+  "description": "Merge multiple commands into one command block using MERGE and WAIT_TICK:N",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.commandmerge.CommandMergeMod"
+    ]
+  },
+  "mixins": [
+    "commandmerge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
