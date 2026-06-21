@@ -2,7 +2,7 @@ package com.example.commandmerge.mixin;
 
 import com.example.commandmerge.CommandChainProcessor;
 import com.mojang.brigadier.CommandDispatcher;
-import com.mojang.brigadier.context.ParseResults;
+import com.mojang.brigadier.ParseResults;
 import net.minecraft.commands.CommandSourceStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
