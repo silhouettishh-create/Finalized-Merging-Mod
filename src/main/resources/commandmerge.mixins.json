@@ -4,7 +4,7 @@
   "package": "com.example.commandmerge.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [
-    "CommandDispatcherMixin"
+    "CommandsMixin"
   ],
   "client": [
   ],
